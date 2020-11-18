@@ -35,6 +35,20 @@ function Form() {
             required
           />
         </div>
+        <div className='input radio'>
+          <div className='male'>
+            <label htmlFor='password'>Male </label>
+            <input name='gender' id='password' type='radio' required />
+          </div>
+          <div className='female'>
+            <label htmlFor='password'>Female </label>
+            <input name='gender' id='password' type='radio' required />
+          </div>
+          <div className='female'>
+            <label htmlFor='password'>Other </label>
+            <input id='password' name='gender' type='radio' required />
+          </div>
+        </div>
         <div className='sign-up btn'>
           <button>Sign Up</button>
         </div>
@@ -48,3 +62,5 @@ function Form() {
 }
 
 export default Form;
+
+// Add a select dropdown
