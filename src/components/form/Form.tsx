@@ -49,9 +49,17 @@ function Form() {
             <input id='password' name='gender' type='radio' required />
           </div>
         </div>
+        <div className='dropdown'>
+          <select name='cars' id='cars'>
+            <option value='Lambo'>Lambo</option>
+            <option value='Tesla'>Tesla</option>
+            <option value='Buick'>Buick</option>
+          </select>
+        </div>
         <div className='sign-up btn'>
           <button>Sign Up</button>
         </div>
+
         <footer>
           <h4>By clicking you agree to</h4>
           <h4>Terms and Conditions</h4>
